@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-image img {
+  border-radius: 2rem;
+}
+
+.author-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading {
+  font-weight: 800;
+}
